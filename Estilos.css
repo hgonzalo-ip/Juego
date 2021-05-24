@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#BodyIniciar{
+    background-color: black;
+}
+#BtnIniciar{
+   
+    margin: 0% auto;
+    width: 25%;
+    height: 8em;
+    border-radius: 1em;
+    margin-top: 19%;
+    background-color: rgba(151, 223, 19, 0.849);
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#BtnIniciar:hover{
+    box-shadow: 5px 5px 2px rgba(239, 253, 211, 0.849);
+    background-color:rgba(152, 223, 19, 0.596);
+    cursor: pointer;
+}
+
+h1{
+    margin-top: 0.5em;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#Table{
+    background-color: rgb(255, 255, 255);
+    margin: 0px auto;
+  
+}
+#Table tr td{
+   height: 9em;
+    width: 10em;
+    text-align: center;
+}
+
+.lado-Izquierdo{
+    border-right: 1px solid black;
+}
+.fila-1{
+    border-bottom: 1px solid black;
+}
+.lado-derecho {
+    border-left: black 1px solid;
+}
+.fila-ultimo{
+    border-left: black 1px solid;
+}
+table td:hover{
+    background-color: rgba(175, 141, 141, 0.698);
+}
+.RowBtn{
+    width: 100%;
+    margin: 0% auto;
+    margin-top: 1em;
+}
+.RowBtn .BtnRestablecer{
+    margin-top: 2em;
+    background-color: rgb(2, 1, 0);
+   
+    color: wheat;
+    width: 10em;
+    font-size: 2em;
+    height: 2em;
+ 
+    border-radius: 2em;
+    box-shadow: 1px 1px 1px rgb(141, 101, 101);
+}
+.RowBtn .BtnIniarJuego{
+    
+    margin-top: 2em;
+    background-color: rgba(13, 87, 246, 0.952);
+    
+    color: wheat;
+    width: 10em;
+    font-size: 2em;
+    height: 2em;
+
+    border-radius: 2em;
+    box-shadow: 1px 1px 1px rgb(141, 101, 101);
+}
+.RowBtn .BtnRestablecer:hover{
+    background-color: rgba(143, 45, 45, 0.829);
+}
+.H1Conteo{
+    font-size: 5em;
+}

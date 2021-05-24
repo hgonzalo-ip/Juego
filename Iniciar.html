@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos.css">
+    <title>Tic Tac Toe</title>
+    <script src="jquery.js"></script>
+    <script src="Funciones.js"></script>
+   
+</head>
+<body >
+   <div id="Contenedor">
+       
+        <div id="Conteo">
+            <h1 class="H1Conteo"></h1>
+        </div>
+        <div id="Conteo">
+            <h1 class="Ganador"></h1>
+        </div>
+        <br><br>
+        <table id="Table">
+            <tbody>
+                <tr>
+                    <td class="lado-Izquierdo fila-1" onclick="Selecionar( 1 )" ><h1 id="1"></h1></td>
+                    <td class="fila-1" onclick="Selecionar(2)"><h1 id="2"></h1></td>
+                    <td class="lado-derecho fila-1" onclick="Selecionar(3)"><h1 id="3"></h1></td>
+                </tr>
+                <tr>
+                    <td class="lado-Izquierdo fila-1"onclick="Selecionar(4)"><h1 id="4"></h1></td>
+                    <td class="fila-1" onclick="Selecionar(5)" ><h1 id="5"></h1></td>
+                    <td class="lado-derecho fila-1" onclick="Selecionar(6)"><h1 id="6"></h1></td>
+                </tr>
+                <tr>
+                    <td class="lado-Izquierdo" onclick="Selecionar(7)" ><h1 id="7"></h1></td>
+                    <td class="" onclick="Selecionar(8)" ><h1 id="8"></h1></td>
+                    <td class="lado-derecho fila-ultimo" onclick="Selecionar(9)" ><h1 id="9"></h1></td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <div class="RowBtn">
+        <center>
+            <button onclick="Iniciar()" class="BtnIniarJuego">
+                Jugar
+            </button>
+            <button onclick="Resetear()" class="BtnRestablecer">
+                Restablecer
+            </button>
+        </center>
+           
+        </div>
+        <br>
+   </div>
+   <div id="reloj">
+        
+   </div>
+</body>
+</html>
